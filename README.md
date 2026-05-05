@@ -25,37 +25,5 @@ src/
                 ├── MyLinkedList.java     # Implementação da estrutura
                 └── tests/
                     └── MyLinkedListTests.java  # Classe para testes unitários
-
-# Data Structures: Dynamic Linked List (ADT)
-
-This repository contains the initial implementation of an **Abstract Data Type (ADT)** for a **Dynamic Linked List** developed in Java. The focus of this stage is defining the project architecture using generic interfaces and the fundamental structuring of nodes.
-
-## 📌 About the Project
-
-The goal of this project is to provide a flexible and efficient list structure using the concept of node chaining. The implementation uses **Generics** (`<T>`), allowing the list to store any type of object, ensuring code reusability.
-
-## 🏗️ Architecture and Organization
-
-The project follows a rigorous package structure to ensure organization and standardization:
-
-* **Interface `MyList<T>`**: Defines the contract with all mandatory operations of a list.
-
-* **Class `MyLinkedList<T>`**: Concrete implementation of the list.
-
-* **Class `Node<T>`**: Private inner class that represents each element (node) of the list, containing the data and the reference to the next node.
-
-### Directory Structure
-```text
-src/
-└── dev/
-
-└── aluno/
-
-└── datastructures/
-
-└── list/
-├── MyList.java # Interface with subscriptions
-├── MyLinkedList.java # Implementation of the structure
-└── tests/
-
+-----
 └── MyLinkedListTests.java # Class for unit tests
